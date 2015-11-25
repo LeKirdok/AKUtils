@@ -8,12 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		635EEEF61C06460600380B1A /* AKUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 635EEEF51C06460600380B1A /* AKUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		635EEEFF1C0658A100380B1A /* Deneme.h in Headers */ = {isa = PBXBuildFile; fileRef = 635EEEFD1C0658A100380B1A /* Deneme.h */; };
+		635EEF001C0658A100380B1A /* Deneme.m in Sources */ = {isa = PBXBuildFile; fileRef = 635EEEFE1C0658A100380B1A /* Deneme.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		635EEEF21C06460600380B1A /* AKUtils.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AKUtils.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		635EEEF51C06460600380B1A /* AKUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AKUtils.h; sourceTree = "<group>"; };
 		635EEEF71C06460600380B1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		635EEEFD1C0658A100380B1A /* Deneme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Deneme.h; sourceTree = "<group>"; };
+		635EEEFE1C0658A100380B1A /* Deneme.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Deneme.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +51,8 @@
 			isa = PBXGroup;
 			children = (
 				635EEEF51C06460600380B1A /* AKUtils.h */,
+				635EEEFD1C0658A100380B1A /* Deneme.h */,
+				635EEEFE1C0658A100380B1A /* Deneme.m */,
 				635EEEF71C06460600380B1A /* Info.plist */,
 			);
 			path = AKUtils;
@@ -59,6 +65,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				635EEEFF1C0658A100380B1A /* Deneme.h in Headers */,
 				635EEEF61C06460600380B1A /* AKUtils.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -130,6 +137,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				635EEF001C0658A100380B1A /* Deneme.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +283,7 @@
 				635EEEFC1C06460600380B1A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
